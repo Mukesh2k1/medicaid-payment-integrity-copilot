@@ -113,7 +113,7 @@ with tabs[0]:
                 st.caption(f"Dataset: {labels[choice]}")
             else:
                 choice = st.radio("Dataset", keys, format_func=lambda k: labels[k])
-            if st.button("Run agent", type="primary", icon=":material/play_arrow:"):
+            if st.button("Run", type="primary", icon=":material/play_arrow:"):
                 execute(lambda cb: run_dataset(choice, pct=pct, on_step=cb, pause=0.45), pct)
 
         with st.expander("Analyze your own fee schedule files"):
