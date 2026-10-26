@@ -6,7 +6,11 @@ This app is an AI agent that compares two versions of a fee schedule, prices the
 
 ## The five steps
 
-| Step | What the agent does. |
+<<<<<<< HEAD
+| Step | What the agent does |
+=======
+| Step | What the agent does |
+>>>>>>> be954fbd03954ae88b1463d4870c347c9c5f40a4
 |---|---|
 | 1. Load schedules | Reads two versions (xls, xlsx, csv) and auto-detects the header row, code, modifier and rate columns |
 | 2. Detect changes | Labels every code + modifier: rate increase, rate decrease, new, deleted, became priced, became not priced, no change |
