@@ -1,0 +1,8 @@
+Put the two public Florida Medicaid Practitioner Fee Schedule files here:
+
+  fs_old.xls or fs_old.xlsx   (promulgated Oct 1, 2025)
+  fs_new.xls or fs_new.xlsx   (updated Jan 1, 2026)
+
+Source: Florida AHCA, Rule 59G-4.002 provider reimbursement schedules and billing codes (public).
+Then run:  python make_demo_data.py --florida
+Do not add CPT descriptions to anything you publish.

@@ -1,0 +1,10 @@
+{
+  "name": "Synthetic practitioner fee schedule",
+  "old_label": "Version A",
+  "new_label": "Version B",
+  "source": "Synthetic demo data",
+  "public": false,
+  "old_file": "fs_old.xlsx",
+  "new_file": "fs_new.xlsx",
+  "claims_note": "20,000 synthetic claim lines"
+}
