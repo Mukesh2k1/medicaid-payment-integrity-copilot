@@ -116,7 +116,7 @@ with tabs[0]:
             if st.button("Run", type="primary", icon=":material/play_arrow:"):
                 execute(lambda cb: run_dataset(choice, pct=pct, on_step=cb, pause=0.45), pct)
 
-        with st.expander("Analyze your own fee schedule files"):
+        with st.expander("Analyze your own fee schedule files", expanded=True):
             c1, c2 = st.columns(2)
             up_old = c1.file_uploader("Older fee schedule", type=["xls", "xlsx", "csv"],
                                       key="up_old")
